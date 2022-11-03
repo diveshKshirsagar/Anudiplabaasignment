@@ -1,10 +1,10 @@
 package Assi2710.java;
 
 class Circle extends Shape //child class 
-    {
-	// inheritance concept
-	public void areaOfCircle() // method of circle class
-	{
+       {
+	    // inheritance concept
+	   public void areaOfCircle() // method of circle class
+	   {
 		 double pi=3.14;
 		 int r=8;
 		 double area=pi*r*r;  //calculate area of circle
@@ -13,15 +13,15 @@ class Circle extends Shape //child class
 } 
 
 class Triangle extends Shape  // child class
-{
-	public void areaOfTriangle()// method of Triangle class
-	{
+       {
+	   public void areaOfTriangle()// method of Triangle class
+	   {
 		int b=4;
 		int h=6;
 		double area=(b*h)/2;//calculate area of Triangle
 		  System.out.print("Area of Triangle is :"+area);
-	}
-}
+	   }
+  }
 
 public class Shape {
 	
